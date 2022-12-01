@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c57caa79-dfbd-450d-affd-3556320a44cf" name="Eurexpo" url="http://localhost">
+        <fileTransfer mountedRoot="/Applications/MAMP/htdocs/Eurexpo" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>

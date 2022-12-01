@@ -3,16 +3,19 @@ $action = ["Faire 2 pompes.","Faire la promotion de l'IT-Akademy.","Donner 3 nom
 $verite= ["Est-ce que tu veux devenir Developper ?","As-tu deja coder ?"];
 choice($action,$verite);
 function choice($action, $verite){
-    $choice_q = randint(0,1);
+    $choice_q = random_int(0,1);
     if($choice_q === 0){
-        $question = $action[randint(0,count($action)-1)];
+        $rand = random_int(0,count($action)-1);
+        $question = $action[$rand];
 
-        header('Location: index.php?action='.$action);
+        header('Location: ../main.php?action='.$question);
+
 
 
     }else{
-        $question = $action[randint(0,count($verite)-1)];
-        header('Location: index.php?action='.$action);
+        $rand = random_int(0,count($verite)-1);
+        $question = $action[$rand];
+        header('Location: ../main.php?action='.$question);
     }
 }
 
