@@ -20,8 +20,22 @@ if($_GET['action']){
 <body>
 <form action="action/action.php" method="post">
     <h1 class="">Action Verite</h1>
+    <section>
+        <?php
+        if($question){
+            if($_GET['type']==0){
+                ?><label>Action : <?php echo $question;?></label> <?php
+            }else{
+                ?><label>Verite : <?php echo $question;?></label> <?php
+            }
 
-    <button class="btn btn-primary" type="submit">Jouer</button>
+        }
+        ?>
+    </section>
+    <section>
+        <button class="btn btn-primary" type="submit">Jouer</button>
+    </section>
+
 </form>
 </body>
 </html>
