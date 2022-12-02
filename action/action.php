@@ -1,7 +1,7 @@
 <?php
 
-$action = ["Faire 2 pompes.","Donner 3 nom de mangas.","propose nous une action ou une vérité a ajouter","Faire 10 pompes"];
-$verite= ["Est-ce que tu veux devenir Developper ?","As-tu deja coder ?","Quel age as tu ?","Quelle action ou une vérité voudrais tu ajouter?"];
+$action = ["Faire 2 pompes.","Donne 3 nom de mangas.","Faire la roue","Faire 10 pompes","Faire 10 SQUATS."];
+$verite= ["Est-ce que tu veux devenir Developpeur ?","Qui est l'auteur de Naruto ?","As-tu déjâ jouer à League Of Legend ?","Qui est l'auteur de BlueLock ?","As-tu deja codé ?","Quel âge as tu ?","Donne le nom de l'auteur de One Piece"];
 if($_POST['action']){
     action($action);
 }elseif ($_POST['alea']){

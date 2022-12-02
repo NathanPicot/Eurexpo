@@ -20,14 +20,14 @@ if($_GET['action']){
 
 <body>
 <form action="action/action.php" method="post">
-    <h1 class="title">Action Verite</h1>
+    <h1 class="title col-4 offset-4">Action Verite</h1>
     <section>
         <?php
         if($question){
             if($_GET['type']==0){
-                ?><label class="offset-4 action">Action : <?php echo $question;?></label> <?php
+                ?><label class="offset-3 action">Action : <?php echo $question;?></label> <?php
             }else{
-                ?><label class="offset-4 action">Verite : <?php echo $question;?></label> <?php
+                ?><label class="offset-3 action">Verite : <?php echo $question;?></label> <?php
             }
 
         }

@@ -1,13 +1,17 @@
 body{
     background-color: #C4D7F2 !important;
 }
+
+
 .action{
-    font-size: 20px;
+
+    font-size: 40px;
     text-align: center;
     margin-top: 150px;
 
 }
 .title{
+    border-style: solid;
     margin-top:30px;
     text-align: center;
 }
